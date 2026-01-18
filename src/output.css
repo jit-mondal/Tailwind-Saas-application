@@ -191,6 +191,18 @@
   .sticky {
     position: sticky;
   }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .top-10 {
+    top: calc(var(--spacing) * 10);
+  }
+  .-z-50 {
+    z-index: calc(50 * -1);
+  }
+  .z-0 {
+    z-index: 0;
+  }
   .z-50 {
     z-index: 50;
   }
